@@ -1,0 +1,1 @@
+repsonse_variable ~ var_numeric+var_categorical1+var_categorical2
