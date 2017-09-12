@@ -17,7 +17,8 @@ shinyUI(fluidPage(
                   # Application title
                   fluidRow(
                           column(width = 2, offset = 0,
-                                imageOutput("myLogo", width = "auto", height = "auto", inline = FALSE)
+                                imageOutput("myLogo", width = "auto", height = "auto", inline = FALSE) 
+                                # image source: https://commons.wikimedia.org/wiki/File:Logo_TV_2015.png
                                 ),
                           column(width = 10,
                                 titlePanel("Segmentation Tool"),
@@ -40,7 +41,7 @@ shinyUI(fluidPage(
                                         column(6, 
                                                h4("2. To distinguish between numeric and categorical variables, please insert the column number of 
                                                   the last numeric variable*:"),
-                                               numericInput("colNum", label = "Column number (e.g. 10):", value = 4),
+                                               numericInput("colNum", label = "Column number (e.g. 10):", value = 3),
                                                h6("* The uploaded data table has to have the following order of variable/column data types:
                                                   [ID/Primary Key] - [all numceric variables] - [all categorical variables].")
                                                )

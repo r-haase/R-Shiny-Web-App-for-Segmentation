@@ -36,8 +36,8 @@ shinyServer(function(input, output, session) {
                 
                 # Return a list containing the filename and alt text
                 list(src = filename,
-                     width = 310/5,
-                     height = 520/5,
+                     width = 440/5,
+                     height = 433/5,
                      alt = "Logo")
                 
         }, deleteFile = FALSE)
