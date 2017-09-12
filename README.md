@@ -7,10 +7,10 @@ Using the dummy dataset (dummyData.csv - which has German csv notation) you can 
 **What is it capable of?**    
 - upload csv file including a numeric response variable as well as numeric and/or categorcial predictors   
 - descriptive data exploration  
-- 4 ML algorithms to chooese from for training  
+- 4 ML algorithms to choose from for training  
 - saving and resuse of trained models   
 - model performance comparison  
-- prediction on new data  
+- prediction on new data and download of results
 - model analysis, e.g. feature importance, decision tree visualization
 - ...   
 
