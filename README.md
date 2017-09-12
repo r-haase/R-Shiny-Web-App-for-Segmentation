@@ -1,6 +1,7 @@
 # R Shiny Web App for Portfolio Segmentation
 This repository features a **R Shiny Web App** for training **Machine Learning** models for **Segmentation** tasks. This web app was initially implementend as part of my _master's thesis_ and now generalized to be published so that others have the chance of making use of it by adapting it for their purposes, for example. 
 
+**Quickly explore it!**
 Using the dummy dataset (dummyData.csv - which has German csv notation) you can **explore the app** by playing with it [here](https://r-haase.shinyapps.io/R-Shiny-Web-App-for-Segmentation/). I tried to make it as easy to follow as possible.
 
 Running it locally requires **R 3.2.4** to enjoy all features.
