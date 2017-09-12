@@ -187,7 +187,7 @@ shinyServer(function(input, output, session) {
                                                       dataFile(), 
                                                       method = "rpart",
                                                       metric = "RMSE",
-                                                      tuneLength = 10,
+                                                      tuneLength = 1,
                                                       trControl = ctrl))
                                 # save model for later use
                                 saveRDS(rpart_reg, file = "trainedModels/CART.Rdata")
@@ -204,7 +204,7 @@ shinyServer(function(input, output, session) {
                                                       dataFile(), 
                                                       method = "xgbTree",
                                                       metric = "RMSE",
-                                                      tuneLength = 10,
+                                                      tuneLength = 1,
                                                       trControl = ctrl))
                                 # save model for later use
                                 saveRDS(XG_reg, file = "trainedModels/XGboost.Rdata")
@@ -222,7 +222,7 @@ shinyServer(function(input, output, session) {
                                                       dataFile(),
                                                       method = "gbm",
                                                       metric = "RMSE",
-                                                      tuneLength = 10,
+                                                      tuneLength = 1,
                                                       trControl = ctrl))
                                 # save model for later use
                                 saveRDS(sgb_reg, file = "trainedModels/SGB.Rdata")
@@ -241,7 +241,7 @@ shinyServer(function(input, output, session) {
                                                       dataFile(),
                                                       method = "brnn",
                                                       metric = "RMSE",
-                                                      tuneLength = 10,
+                                                      tuneLength = 1,
                                                       trControl = ctrl))
                                 # save model for later use
                                 saveRDS(brnn_reg, file = "trainedModels/BRNN.RData")
