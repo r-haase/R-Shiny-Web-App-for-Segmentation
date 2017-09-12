@@ -4,6 +4,16 @@ This repository features a **R Shiny Web App** for training **Machine Learning**
 **Quickly explore it!**    
 Using the dummy dataset (dummyData.csv - which has German csv notation) you can **explore the app** by playing with it [here](https://r-haase.shinyapps.io/R-Shiny-Web-App-for-Segmentation/). I tried to make it as easy to follow as possible.
 
+**What is it capable of?**    
+- upload csv file including a numeric response variable as well as numeric and/or categorcial predictors   
+- descriptive data exploration  
+- 4 ML algorithms to chooese from for training  
+- saving and resuse of trained models   
+- model performance comparison  
+- prediction on new data  
+- model analysis, e.g. feature importance, decision tree visualization
+- ...   
+
 Running it locally requires **R 3.2.4** to enjoy all features.
 
 **Limitations of shinyapps.io deployment**:
